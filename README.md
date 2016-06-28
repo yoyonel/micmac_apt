@@ -23,16 +23,22 @@ Au final, ça produit un fichier .ply visionnable par un client comme 'MeshLab' 
 ## Exemples de définition de Caméra
 
 ### LGE Nexus 5
-``
 Dans ```XML_User/DicoCamera```:
-<?xml version="1.0" ?>
-<MMCameraDataBase>
-<!-- Canon DSLR -->
-   <CameraEntry>
-        <Name>  LGE Nexus 5  </Name>
-        <SzCaptMm>   4.57 3.43 </SzCaptMm>
-        <ShortName> LGE Nexus 5 </ShortName>
-   </CameraEntry>
-</MMCameraDataBase>
+
+```xml
+  <?xml version="1.0" ?>
+  <MMCameraDataBase>
+  <!-- Canon DSLR -->
+     <CameraEntry>
+          <Name>  LGE Nexus 5  </Name>
+          <SzCaptMm>   4.57 3.43 </SzCaptMm>
+          <ShortName> LGE Nexus 5 </ShortName>
+     </CameraEntry>
+  </MMCameraDataBase>
 ```
-Les informations saisies sont `<SzCaptMm>   4.57 3.43 </SzCaptMm>` calculées à partir des informations de taille de l'image `3264 x 2448` et les informations du capteur optique `Sony Exmor IMX179` => `8 MP 5.68 mm (1/3.2") 1.4 μm × 1.4 μm`
+
+Les informations saisies sont:
+```xml
+  <SzCaptMm>   4.57 3.43 </SzCaptMm>
+```
+calculées à partir des informations de taille de l'image `3264 x 2448` et les informations du capteur optique `Sony Exmor IMX179` => `8 MP 5.68 mm (1/3.2") 1.4 μm × 1.4 μm`
