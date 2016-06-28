@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<MMCameraDataBase>
+<!-- Canon DSLR -->
+   <CameraEntry>
+        <Name>  LGE Nexus 5  </Name>
+        <SzCaptMm>   4.57 3.43 </SzCaptMm>
+        <ShortName> LGE Nexus 5 </ShortName>
+   </CameraEntry>
+</MMCameraDataBase>
+
