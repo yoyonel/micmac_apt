@@ -1,0 +1,1 @@
+mm3d GCPConvert #F=N_S_X_Y_Z Polygone_U_complet_Lambert93_avec_altitude.txt Out=Polygone_U_complet_Lambert93_avec_altitude.xml

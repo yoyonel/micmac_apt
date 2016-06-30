@@ -1,0 +1,1 @@
+mm3d gcpbascule .*jpg RadialBasic RTL-Init Polygone_U_complet_Lambert93_avec_altitude.xml Polygone_U_complet_Lambert93_avec_altitude-S2D.xml
